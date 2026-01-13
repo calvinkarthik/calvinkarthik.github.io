@@ -29,7 +29,7 @@ export const useCursor = () => {
     };
 
     const animateCursor = () => {
-      const lerp = (start: number, end: number, factor: number) => 
+      const lerp = (start: number, end: number, factor: number) =>
         start + (end - start) * factor;
 
       cursorPos.current.x = lerp(cursorPos.current.x, mousePos.current.x, 0.15);
@@ -51,7 +51,7 @@ export const useCursor = () => {
     document.addEventListener('mousemove', handleMouseMove);
     document.addEventListener('mouseenter', handleMouseEnter, true);
     document.addEventListener('mouseleave', handleMouseLeave, true);
-    
+
     animateCursor();
 
     return () => {

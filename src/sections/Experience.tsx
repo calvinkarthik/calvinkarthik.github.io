@@ -4,45 +4,56 @@ import { Experience } from '../types';
 
 const experiences: Experience[] = [
   {
-    title: "Electrical Subteam",
-    organization: "McMaster Exoskeleton",
-    duration: "Jul 2025 – Present",
+    title: "Software Engineering Intern",
+    organization: "Hivo Inc | Remote",
+    duration: "Dec 2025 - Present",
     description: [
-      "PCB schematic capture + layout in Altium Designer; soldering/assembly of sensor + power modules",
-      "Integrating power/sensors with actuators/controllers for reliable operation",
-      "Prototyping + validation focused on safety, modularity, maintainability"
+      "Ran full end-to-end iOS regression testing on real devices to capture reproducible defects and verify fixes across user journeys.",
+      "Implemented TypeScript (Node.js/Express) backend changes with Prisma + PostgreSQL to enforce correct host application behavior and secure permissions.",
+      "Reduced edge-case failures by refactoring the update endpoint to accept structured payloads and apply conditional Prisma updates, verified with Jest + Dockerized Postgres."
     ],
-    technologies: ["Altium Designer", "PCB Design", "Power Systems", "Sensor Integration"]
+    technologies: ["TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Jest", "Docker"]
+  },
+  {
+    title: "Sensors and Actuation Team",
+    organization: "McMaster Exoskeleton",
+    duration: "Nov 2024 - Present",
+    description: [
+      "Validated BNO055 IMU performance for joint sensing (outputs, axis conventions, stability-at-rest, calibration behavior) to reduce integration risk during bring-up.",
+      "Investigated IMU behavior under real motion (orientation response + sanity checks) to confirm sensor data quality before downstream use in control/estimation.",
+      "PCB schematic capture and layout in Altium Designer with attention to signal integrity."
+    ],
+    technologies: ["Altium Designer", "PCB Design", "Sensor Integration", "Embedded Systems", "IMU Validation"]
   },
   {
     title: "Systems Packaging & Mech-Elec Integration",
     organization: "McMaster Engineering",
-    duration: "Nov 2024 – Jun 2025",
+    duration: "Nov 2024 - Jun 2025",
     description: [
-      "Designed compact multiplexor enclosures; secure, modular harness mounting",
-      "Streamlined Raspberry Pi, multiplexors, wiring → improved reliability & serviceability",
-      "Rapid cross-functional prototyping across structural/electrical/ergonomic needs"
+      "Designed compact multiplexor enclosures; secure, modular harness mounting.",
+      "Streamlined Raspberry Pi, multiplexors, and wiring to improve reliability and serviceability.",
+      "Rapid cross-functional prototyping across structural, electrical, and ergonomic needs."
     ],
     technologies: ["Raspberry Pi", "System Integration", "Mechanical Design", "Prototyping"]
   },
   {
     title: "Electrical/Software",
     organization: "McMaster SumoBot",
-    duration: "Dec 2024 – Jan 2025",
+    duration: "Dec 2024 - Jan 2025",
     description: [
-      "Built electrical system for dual-motor robot on Arduino Nano; sensor-driven control",
-      "Implemented autonomous navigation and opponent detection algorithms"
+      "Built electrical system for dual-motor robot on Arduino Nano; sensor-driven control.",
+      "Implemented autonomous navigation and opponent detection algorithms."
     ],
     technologies: ["Arduino", "C++", "Embedded Systems", "Motor Control"]
   },
   {
     title: "Scientific Research",
     organization: "Trent University",
-    duration: "May 2022 – May 2023",
+    duration: "May 2022 - May 2023",
     description: [
-      "Biogas from mushroom substrate; published in CSFJ",
-      "13 awards including Best Project in Canada + ISEF 3rd Place",
-      "Developed sustainable energy solutions through innovative waste utilization"
+      "Biogas from mushroom substrate; published in CSFJ.",
+      "13 awards including Best Project in Canada + ISEF 3rd Place.",
+      "Developed sustainable energy solutions through innovative waste utilization."
     ],
     technologies: ["Research", "Renewable Energy", "Data Analysis", "Scientific Writing"]
   }

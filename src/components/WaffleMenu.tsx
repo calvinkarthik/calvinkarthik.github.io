@@ -1,15 +1,13 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ExternalLink, Download, Mail, Github, Linkedin } from 'lucide-react';
+import { RESUME_URL } from '../constants/resume';
 
 export const WaffleMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const resumeUrl = import.meta.env.BASE_URL + 'calvin_karthik_resume.pdf';
-
-
   const menuItems = [
-    { title: 'Resume', icon: Download, action: () => window.open(resumeUrl, '_blank', 'noopener,noreferrer'), external: true },
+    { title: 'Resume', icon: Download, action: () => window.open(RESUME_URL, '_blank', 'noopener,noreferrer'), external: true },
     { title: 'GitHub', icon: Github, action: () => window.open('https://github.com/calvinkarthik', '_blank'), external: true },
     { title: 'LinkedIn', icon: Linkedin, action: () => window.open('https://linkedin.com/in/calvinkarthik', '_blank'), external: true },
     { title: 'Email', icon: Mail, action: () => window.open('mailto:calvin.g.karthik@gmail.com'), external: false },

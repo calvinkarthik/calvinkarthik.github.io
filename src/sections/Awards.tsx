@@ -21,27 +21,39 @@ const awards = [
     type: "National"
   },
   {
-    title: "BWXT Nuclear STEM Award",
-    organization: "BWXT",
-    date: "June 2024",
+    title: "Dynacast Engineering Award",
+    organization: "Dynacast",
+    date: "2024",
     type: "Industry"
   },
   {
-    title: "Dynacast Engineering Award",
-    organization: "Dynacast",
-    date: "June 2024",
+    title: "Faculty of Engineering Award of Excellence",
+    organization: "McMaster University",
+    date: "2024",
+    type: "Academic"
+  },
+  {
+    title: "Senior Academic Achievement: Physics (IB)",
+    organization: "Academic",
+    date: "2024",
+    type: "Academic"
+  },
+  {
+    title: "BWXT Nuclear STEM Award",
+    organization: "BWXT",
+    date: "2024",
+    type: "Industry"
+  },
+  {
+    title: "BWXT Nuclear STEM Award",
+    organization: "BWXT",
+    date: "2024",
     type: "Industry"
   },
   {
     title: "Senior Academic Achievement: Physics (IB)",
     organization: "Academic",
-    date: "June 2024",
-    type: "Academic"
-  },
-  {
-    title: "Faculty of Engineering Award of Excellence",
-    organization: "McMaster University",
-    date: "July 2024",
+    date: "2024",
     type: "Academic"
   }
 ];

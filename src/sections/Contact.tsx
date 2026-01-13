@@ -1,9 +1,8 @@
 import { GlassCard } from '../components/GlassCard';
 import { Mail, Linkedin, Github, Download, MapPin } from 'lucide-react';
+import { RESUME_URL } from '../constants/resume';
 
 export const Contact = () => {
-  const resumeUrl = import.meta.env.BASE_URL + 'calvin_karthik_resume.pdf';
-
   return (
     <section id="contact" className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
@@ -48,7 +47,7 @@ export const Contact = () => {
 
             {/* Resume -> open PDF in new tab */}
             <a
-              href={resumeUrl}
+              href={RESUME_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-6 rounded-xl hover:bg-cyan-400/10 transition-all duration-300 group border border-transparent hover:border-cyan-400/30"

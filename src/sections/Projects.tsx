@@ -5,7 +5,25 @@ import { Project } from '../types';
 
 const projects: Project[] = [
   {
-    title: "PawGress — AI Powered Habit Manager",
+    title: "tailSync - DeltaHacks Winner (Best Use of Tailscale)",
+    description: "Built tailSync, a Tailscale-secured 2-device desktop overlay enabling private chat, file sharing, and screenshot-to-feed collaboration. Implemented hosted session + join flow with device-based access control to keep workspaces private-by-default.",
+    technologies: ["TypeScript", "Node.js", "Tailscale", "WebSockets", "REST", "Security"],
+    links: {}
+  },
+  {
+    title: "CauldronCare - HackUTD",
+    description: "React Native (Expo/TS) robot helper that gamifies patient health: Auth0 onboarding, Brew Score dashboard with animated meters, JoyCon joystick to drive a Pi robot with live video, and BLE/Wi-Fi links to ESP32 plant nodes.",
+    technologies: ["React Native", "TypeScript", "Auth0", "ESP32", "BLE", "Live Video", "Robotics"],
+    links: {}
+  },
+  {
+    title: "Autonomous Sumo Robot - McMaster SumoBot",
+    description: "Autonomous sumo robot with embedded control logic on an Arduino Nano driving a dual-motor chassis to detect opponents and push them out of the ring. Designed and assembled the electronics stack and a compact 3D-printed chassis for reliable wiring/debug.",
+    technologies: ["Arduino", "Embedded Control", "C/C++", "Motor Control", "3D Printing"],
+    links: {}
+  },
+  {
+    title: "PawGress - AI Powered Habit Manager",
     description: "React Native app with animated dog avatar; Cohere API for personalized habit suggestions + AI feedback. Focus on TypeScript/JS, API integration, cross-platform debugging.",
     technologies: ["React Native", "TypeScript", "Cohere API", "AI/ML", "Cross-platform"],
     links: {

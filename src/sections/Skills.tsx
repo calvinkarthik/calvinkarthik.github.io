@@ -5,15 +5,15 @@ import { Skill } from '../types';
 const skills: Skill[] = [
   {
     category: "Languages",
-    items: ["Python", "C/C++", "JavaScript", "TypeScript", "SQL", "HTML/CSS", "MATLAB"]
+    items: ["Python", "SQL", "C/C++", "HTML/CSS", "JavaScript", "TypeScript", "MATLAB", "R", "SystemVerilog"]
   },
   {
     category: "Tools & Frameworks",
-    items: ["React Native", "Node.js", "Altium Designer", "Cohere API", "Autodesk Inventor", "SolidWorks", "Git", "Granta"]
+    items: ["React Native", "Node.js", "Docker", "Prisma", "Altium Designer", "Autodesk Inventor", "Git", "OpenCV", "Auth0", "Cohere API", "SolidWorks", "Granta"]
   },
   {
     category: "Interests & Focus Areas",
-    items: ["HPC", "Power Systems", "Embedded/Control", "Full-Stack", "PCB Design", "AI/ML Integration"]
+    items: ["Embedded Systems & Robotics", "IoT Systems", "Computer Vision", "Embedded/Control Systems", "Full Stack Development", "PCB Design", "HPC", "Power Systems", "AI/ML Integration"]
   }
 ];
 

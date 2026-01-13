@@ -1,11 +1,11 @@
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls, Environment } from '@react-three/drei';
 import * as THREE from 'three';
 
 const Cube = () => {
   const meshRef = useRef<THREE.Mesh>(null);
-  const { pointer, viewport } = useThree();
+  const { pointer } = useThree();
 
   useFrame((state) => {
     if (meshRef.current) {
